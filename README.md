@@ -1,6 +1,8 @@
 # postcss-get-variables [![Build Status](https://secure.travis-ci.org/johnotander/postcss-get-variables.png?branch=master)](https://travis-ci.org/johnotander/postcss-get-variables)
 
-Get an object with variables and their values.
+Get an object with variables and their values. This is useful for creating living styleguides, etc.
+
+Currently only supports W3C variable syntax.
 
 ## Installation
 
