@@ -1,0 +1,13 @@
+.some-class {
+  color: tomato;
+}
+
+:root {
+  --primary-color: red;
+  --font-family: Helvetica, sans;
+  --accent-color: tomato;
+}
+
+.some-other-class {
+  color: var(--accent-color);
+}

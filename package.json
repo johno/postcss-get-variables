@@ -1,0 +1,30 @@
+{
+  "name": "postcss-get-variables",
+  "description": "Get an object with variables and their values.",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/postcss-get-variables.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/postcss-get-variables/issues"
+  },
+  "homepage": "https://github.com/johnotander/postcss-get-variables",
+  "dependencies": {
+    "postcss": "^4.1.14"
+  },
+  "devDependencies": {
+    "is-present": "0.0.1",
+    "mocha": "*"
+  }
+}
