@@ -1,4 +1,4 @@
-# postcss-get-variables [![Build Status](https://secure.travis-ci.org/johnotander/postcss-get-variables.png?branch=master)](https://travis-ci.org/johnotander/postcss-get-variables)
+# postcss-get-variables [![Build Status](https://secure.travis-ci.org/johnotander/postcss-get-variables.png?branch=master)](https://travis-ci.org/johnotander/postcss-get-variables) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Get an object with variables and their values. This is useful for creating living styleguides, etc.
 
