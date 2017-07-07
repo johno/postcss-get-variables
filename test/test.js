@@ -6,7 +6,6 @@ import postcss from 'postcss'
 import isPresent from 'is-present'
 import getVariables from '..'
 
-
 test('postcss-get-variables', t => {
   t.plan(2)
 
@@ -22,5 +21,5 @@ test('postcss-get-variables', t => {
 })
 
 function fixture (name) {
-  return fs.readFileSync('fixtures/' + name + '.css', 'utf8').toString()
+  return fs.readFileSync(`./test/fixtures/${name}.css`, 'utf8').toString()
 }

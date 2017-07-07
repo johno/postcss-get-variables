@@ -8,7 +8,7 @@ module.exports = postcss.plugin('get-variables', function (callback) {
   return function (root, postcssResult) {
     var variables = {}
 
-    root.eachRule(function (rule) {
+    root.walkRules(function (rule) {
       if (rule.selectors.length === 1 && isCssRoot(rule.selectors[0]) && rule.parent.type === 'root') {
         rule.each(function (declaration) {
           if (declaration.type === 'decl' && declaration.prop) {
