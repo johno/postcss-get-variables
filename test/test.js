@@ -7,12 +7,13 @@ import isPresent from 'is-present'
 import getVariables from '..'
 
 test('postcss-get-variables', t => {
-  t.plan(2)
+  t.plan(3)
 
   postcss()
     .use(getVariables(variables => {
       t.true(isPresent(variables))
       t.true(isPresent(variables['primary-color']))
+      t.true(Object.keys(variables).length === 3)
     }))
     .process(fixture('basic'))
     .catch(error => {
